@@ -1,0 +1,660 @@
+{
+  "viewports": [
+    {
+      "route": "/",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/cooks",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/auth",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/cooks",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/auth",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/cooks",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/auth",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/cooks",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/auth",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/cooks",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/auth",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/cooks",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/auth",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/",
+      "width": 1920,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/cooks",
+      "width": 1920,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "/auth",
+      "width": 1920,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/overview",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/requests",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/subscriptions",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/earnings",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/menu",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/profile",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/overview",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/requests",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/subscriptions",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/earnings",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/menu",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/profile",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/overview",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/requests",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/subscriptions",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/earnings",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/menu",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/profile",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/overview",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/requests",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/subscriptions",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/earnings",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/menu",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/profile",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/overview",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/requests",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/subscriptions",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/earnings",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/menu",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/profile",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/overview",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/requests",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/subscriptions",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/earnings",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/menu",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "cook/profile",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/overview",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/orders",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/subscriptions",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/support",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "kitchen-detail",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/overview",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/orders",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/subscriptions",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/support",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "kitchen-detail",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/overview",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/orders",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/subscriptions",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/support",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "kitchen-detail",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/overview",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/orders",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/subscriptions",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/support",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "kitchen-detail",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/overview",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/orders",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/subscriptions",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/support",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "kitchen-detail",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/overview",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/orders",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/subscriptions",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "customer/support",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "kitchen-detail",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/overview",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/cooks",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/users",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/orders",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/subscriptions",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/complaints",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/settings",
+      "width": 1440,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/overview",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/cooks",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/users",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/orders",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/subscriptions",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/complaints",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/settings",
+      "width": 1024,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/overview",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/cooks",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/users",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/orders",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/subscriptions",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/complaints",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/settings",
+      "width": 768,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/overview",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/cooks",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/users",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/orders",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/subscriptions",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/complaints",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/settings",
+      "width": 425,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/overview",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/cooks",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/users",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/orders",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/subscriptions",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/complaints",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/settings",
+      "width": 375,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/overview",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/cooks",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/users",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/orders",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/subscriptions",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/complaints",
+      "width": 320,
+      "horizontalOverflow": false
+    },
+    {
+      "route": "admin/settings",
+      "width": 320,
+      "horizontalOverflow": false
+    }
+  ],
+  "flows": [
+    "Password visibility toggle preserves value and does not submit",
+    "Cook registration, success animation, dashboard redirect, profile submission, menu creation",
+    "Kitchen gallery and dish photo upload persist in MongoDB",
+    "Admin can inspect kitchen menus",
+    "Whole kitchen card supports heading/image clicks and keyboard activation; uploaded images render publicly",
+    "Customer registration, dashboard redirect, kitchen detail, COD order placement and tracking",
+    "Mobile notification panel stays within screen"
+  ],
+  "consoleErrors": [],
+  "passed": true
+}

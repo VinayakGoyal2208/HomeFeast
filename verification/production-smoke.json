@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "Production prerender/hydration",
+    "Mobile navigation",
+    "Admin login and success redirect",
+    "Admin dashboard",
+    "Logout redirect"
+  ],
+  "errors": []
+}

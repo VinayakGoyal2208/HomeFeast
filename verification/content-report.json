@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    "Home discovery, plan comparison, audience content and working FAQ",
+    "Plan CTA applies chosen plan",
+    "Sample kitchen clearly labeled; live ordering disabled; full menu shown",
+    "/ fits 320",
+    "/cooks fits 320",
+    "/cooks/preview-anita fits 320",
+    "/ fits 375",
+    "/cooks fits 375",
+    "/cooks/preview-anita fits 375",
+    "/ fits 425",
+    "/cooks fits 425",
+    "/cooks/preview-anita fits 425",
+    "/ fits 768",
+    "/cooks fits 768",
+    "/cooks/preview-anita fits 768",
+    "/ fits 1024",
+    "/cooks fits 1024",
+    "/cooks/preview-anita fits 1024",
+    "/ fits 1440",
+    "/cooks fits 1440",
+    "/cooks/preview-anita fits 1440",
+    "City filtering works for sample directory"
+  ],
+  "errors": []
+}

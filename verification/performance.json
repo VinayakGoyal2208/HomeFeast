@@ -1,0 +1,73 @@
+{
+  "environment": "Local production build; Chrome; 375px; 4× CPU slowdown; 1.6Mbps download; 150ms latency; compressed local static preview; Vercel provides CDN compression",
+  "metrics": {
+    "lcp": 4248,
+    "paints": [
+      {
+        "name": "first-paint",
+        "time": 4148
+      },
+      {
+        "name": "first-contentful-paint",
+        "time": 4148
+      }
+    ],
+    "domContentLoaded": 802,
+    "load": 3461,
+    "resources": [
+      {
+        "url": "/boot.js",
+        "bytes": 657,
+        "duration": 173
+      },
+      {
+        "url": "/assets/index-BpsrxqsA.css",
+        "bytes": 15535,
+        "duration": 564
+      },
+      {
+        "url": "/assets/fraunces-latin-standard-italic-_Xdwzm-z.woff2",
+        "bytes": 22044,
+        "duration": 667
+      },
+      {
+        "url": "/assets/fraunces-latin-standard-normal-fy3WnWFo.woff2",
+        "bytes": 17548,
+        "duration": 604
+      },
+      {
+        "url": "/assets/manrope-latin-wght-normal-DHIcAJRg.woff2",
+        "bytes": 25136,
+        "duration": 702
+      },
+      {
+        "url": "/assets/thali-Bh9DFjz2.webp",
+        "bytes": 103780,
+        "duration": 1091
+      },
+      {
+        "url": "/assets/index-B25WUU_J.js",
+        "bytes": 116509,
+        "duration": 738
+      },
+      {
+        "url": "/favicon.svg",
+        "bytes": 637,
+        "duration": 169
+      },
+      {
+        "url": "/api/cooks",
+        "bytes": 687,
+        "duration": 185
+      },
+      {
+        "url": "/api/auth/me",
+        "bytes": 326,
+        "duration": 187
+      }
+    ]
+  },
+  "kitchenApiStatus": 200,
+  "reducedMotion": true,
+  "errors": []
+}
