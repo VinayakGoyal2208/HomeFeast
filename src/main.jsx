@@ -12,6 +12,7 @@ import {api,money,Field,Empty,Status} from './shared.jsx';
 import CookCard from './CookCard.jsx';
 import {previewCooks} from './preview.js';
 import {HomeContent,Notifications} from './Content.jsx';
+import {SpeedInsights} from '@vercel/speed-insights/react';
 function routePath(value){const pathname=value.split('?')[0].split('#')[0].replace(/\/+$/,'')||'/';return ({'/orders':'/dashboard','/cook':'/dashboard','/admin':'/dashboard','/login':'/auth','/register':'/auth'})[pathname]||pathname}
 export function App(){
  const [path,setPath]=useState(typeof location==='undefined'?'/':routePath(location.pathname)),[search,setSearch]=useState(typeof location==='undefined'?'':location.search),[user,setUser]=useState(null),[checking,setChecking]=useState(true),[flash,setFlash]=useState(null),[toast,setToast]=useState(''),[mobile,setMobile]=useState(false);
@@ -25,7 +26,7 @@ export function App(){
  return <LazyMotion features={domAnimation}><><header><div className="nav wrap"><a href="/" className="brand" onClick={e=>{e.preventDefault();go('/')}}><span className="brand-icon">♨</span>Home<span>Feast</span><small>FROM HOME, WITH LOVE</small></a><button className="mobile-toggle ghost" aria-expanded={mobile} aria-label="Toggle navigation" onClick={()=>setMobile(!mobile)}>☰</button><div className="nav-tools">{user&&<Notifications user={user} go={go}/>}<nav className={mobile?'open':''}><a href="/cooks" onClick={e=>{e.preventDefault();go('/cooks')}}>Explore kitchens</a><a href="/#how" onClick={e=>{if(path!=='/') {e.preventDefault();go('/');setTimeout(()=>document.getElementById('how')?.scrollIntoView(),80)}}}>How it works</a>{user?<><button className="ghost" onClick={()=>go('/dashboard')}>My dashboard</button><button className="btn small" onClick={logout}>Sign out</button></>:<><button className="ghost" onClick={()=>go('/auth?mode=register&role=cook')}>Become a cook ↗</button><button className="btn small" onClick={()=>go('/auth')}>Sign in <span>→</span></button></>}</nav></div></div></header>
  {path==='/'?<OriginalHome {...props}/>:path==='/cooks'?<Browse {...props}/>:path.startsWith('/cooks/')?<Kitchen {...props} id={path.split('/')[2]}/>:path==='/auth'?<Auth key={path+search} onSuccess={authenticated} {...props}/>:path==='/dashboard'?checking?<main className="wrap section">Loading your account…</main>:user?<Dashboard {...props}/>:<Auth key={path+search} onSuccess={authenticated} {...props}/>:<main className="wrap section"><h1>Page not found</h1><button className="btn" onClick={()=>go('/')}>Back to home</button></main>}
  <footer><div className="wrap footer-inner"><div><b>♨ HomeFeast</b><p>Good food. Familiar comfort. Every day.</p></div><p>Made for the love of home cooking.<br/>© {new Date().getFullYear()} HomeFeast</p><a href="/cooks" onClick={e=>{e.preventDefault();go('/cooks')}}>Find your daily comfort ↗</a></div></footer>
- {toast&&<div role="alert" className="toast"><span>{toast}</span><button aria-label="Dismiss message" onClick={()=>setToast('')}>×</button></div>}{flash&&<div className="success-overlay" role="status"><div className="success-tick">✓</div><h2>{flash}</h2><p>Taking you there…</p></div>}</></LazyMotion>
+ {toast&&<div role="alert" className="toast"><span>{toast}</span><button aria-label="Dismiss message" onClick={()=>setToast('')}>×</button></div>}{flash&&<div className="success-overlay" role="status"><div className="success-tick">✓</div><h2>{flash}</h2><p>Taking you there…</p></div>}<SpeedInsights/></></LazyMotion>
 }
 function Auth({onSuccess,notify,user,go}){
  const reduced=useReducedMotion();
@@ -51,6 +52,3 @@ function Kitchen({id,user,go,notify}){
 }
 const Dashboard=React.lazy(()=>import('./Dashboard.jsx'));
 if(typeof document!=='undefined'){const root=document.getElementById('root'),app=<React.Suspense fallback={<p className="wrap section">Loading…</p>}><App/></React.Suspense>;if(root.dataset.prerendered&&location.pathname==='/')hydrateRoot(root,app);else createRoot(root).render(app)}
-
-
-
