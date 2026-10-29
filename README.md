@@ -6,6 +6,8 @@ The platform brings kitchen discovery, menus, pricing, meal requests, subscripti
 
 Built for students, working professionals, elderly customers, and home-based food businesses.
 
+[Click Here](https://home-feast-pi.vercel.app/)
+
 ## Table of Contents
 
 - [Features](#features)
